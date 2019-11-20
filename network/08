@@ -1,0 +1,4 @@
+# 8. Find the provider of slash16.org
+
+Using whois command, we can find the nameservers of the web hosting provider. In this case, it's AWS
+whois slash16.org | grep "Name Server"
