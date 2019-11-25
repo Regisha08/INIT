@@ -1,3 +1,4 @@
 # 8. What file contains the RSA keys of systems that are authorized to connect via SSH?
-
 ~/.ssh/authorized_keys
+# if ther's no ssh key, use SSH-KEYGEN to generate them.
+# cat ~/.ssh/id_rsa.pub
